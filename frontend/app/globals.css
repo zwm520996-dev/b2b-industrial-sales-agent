@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --industrial-red: #d92323;
+    --industrial-black: #1a1a1a;
+    --industrial-dark: #2d2d2d;
+  }
+}
+
+.bg-industrial-black {
+  background-color: var(--industrial-black);
+} 
+
+.bg-industrial-dark {
+  background-color: var(--industrial-dark);
+}
+.bg-industrial-red {
+  background-color: var(--industrial-red);
+}
+.border-industrial-red {
+  border-color: var(--industrial-red);
+}
